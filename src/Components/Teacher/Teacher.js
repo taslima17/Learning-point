@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 const Teacher = (props) => {
     const { picture, age, name, type } = props.teacher;
     return (
-        <div className="d-flex p-3 shadow-sm ">
+        <div className="d-flex p-3 shadow-sm justify-content-around">
             <img src={picture} alt="" className="p-3" />
             <div className=" p-3">
                 <h3 className="text-left">{name}</h3>

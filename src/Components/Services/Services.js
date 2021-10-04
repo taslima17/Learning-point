@@ -16,8 +16,10 @@ const Services = () => {
             <div className="services-banner">
                 <h1 >Services</h1>
             </div>
+            {/*  bootstrap grid */}
             <Row xs={1} md={3} className="g-5 container my-5 mx-auto">
                 {Array.from({ length: 1 }).map((_, idx) => (
+                    /* show single services */
                     services.map(s => <Service service={s}></Service>)
                 ))}</Row>
 

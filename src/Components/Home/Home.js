@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Row } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import '../Header/Header.css'
+import '../About/About.css'
 import HomeCard from '../HomeCard/HomeCard';
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
     const popularService = service.filter(s => s.id < 5);
     console.log(popularService);
     const handleService = () => {
-        history.push('/service')
+        history.push('/services')
 
     }
     return (
@@ -25,11 +26,13 @@ const Home = () => {
                 <div className="title"><h1>Welcome <br /> to Learning Point</h1>
                     <p>Explore Our Courses and Enrich Your Knowledge</p></div>
             </div>
-            <div className="service">
+            <div className="service info">
                 <h1 className="my-5"> Our Popular Services</h1>
+                {/*  bootstrap grid */}
                 <Row xs={1} md={4} className="g-4 container mx-auto">
                     {Array.from({ length: 1 }).map((_, idx) => (
 
+                        /* go to card */
                         popularService.map(s => <HomeCard service={s}></HomeCard>)
 
                     ))}

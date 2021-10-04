@@ -1,8 +1,12 @@
-
 import './App.css';
+/* react bootstrap import */
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header/Header';
+
+/* react router */
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+/* components */
+import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
@@ -15,7 +19,8 @@ import Enrolled from './Components/Enrolled/Enrolled';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter> <Header></Header>
+      <BrowserRouter>
+        <Header></Header>
         <Switch>
           <Route path="/home">
             <Home></Home>

@@ -10,6 +10,7 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
+                    {/* logo */}
                     <img
                         src={logo}
                         width="80"
@@ -18,6 +19,8 @@ const Header = () => {
                         alt="React Bootstrap logo"
                     />
                     <h2 className="m-3  text-white fs-3 ">Learning Point</h2>
+
+                    {/* Nav Link */}
                     <Nav className="ms-auto">
                         <NavLink to="/Home" className=" m-3 text-decoration-none text-white fs-5  p-3 ">Home</NavLink>
                         <NavLink to="/about" className="m-3 text-decoration-none text-white fs-5 p-3 ">About</NavLink>
