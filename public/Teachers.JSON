@@ -1,0 +1,65 @@
+[
+    {
+        "balance": "$3,482.86",
+        "picture": "https://randomuser.me/api/portraits/men/56.jpg",
+        "age": 29,
+        "name": "Oneil Barry",
+        "about": "male",
+        "phone": "+1 (999) 545-2970",
+        "type": "IT & Software"
+    },
+    {
+        "balance": "$2,258.02",
+        "picture": "https://randomuser.me/api/portraits/women/53.jpg",
+        "age": 24,
+        "name": "Roxie Shields",
+        "about": "female",
+        "phone": "+1 (953) 459-2134",
+        "type": "Backend Developer"
+    },
+    {
+        "balance": "$3,810.98",
+        "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+        "age": 29,
+        "name": "Mckinney Richards",
+        "about": "male",
+        "phone": "+1 (976) 494-3891",
+        "type": "Designer"
+    },
+    {
+        "balance": "$3,192.29",
+        "picture": "https://randomuser.me/api/portraits/men/29.jpg",
+        "age": 38,
+        "name": "Compton Livingston",
+        "about": "male",
+        "phone": "+1 (898) 457-2948",
+        "type": "Front End Developer"
+    },
+    {
+        "balance": "$1,415.47",
+        "picture": "https://randomuser.me/api/portraits/men/92.jpg",
+        "age": 20,
+        "name": "Watts Le",
+        "about": "male",
+        "phone": "+1 (809) 533-2047",
+        "type": "Designer"
+    },
+    {
+        "balance": "$1,408.44",
+        "picture": "https://randomuser.me/api/portraits/women/83.jpg",
+        "age": 26,
+        "name": "Ursula Potter",
+        "about": "female",
+        "phone": "+1 (923) 409-3228",
+        "type": "language trainer"
+    },
+    {
+        "balance": "$1,834.73",
+        "picture": "https://randomuser.me/api/portraits/men/73.jpg",
+        "age": 24,
+        "name": "Miller Noel",
+        "about": "male",
+        "phone": "+1 (978) 554-2965",
+        "type": "Front end developer"
+    }
+]

@@ -1,0 +1,11 @@
+.services-banner{
+    background: url('https://fbcnorco.org/wp-content/uploads/2018/06/bible-study.png');
+    background-size: cover;
+    height: 400px;
+    color: snow;
+    padding: 100px;
+    
+}
+.services-banner h1{
+    font-size: 100px;
+}

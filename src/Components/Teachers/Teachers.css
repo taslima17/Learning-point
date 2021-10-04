@@ -1,0 +1,11 @@
+.teacher-banner{
+    background: url('https://sidehustlr.com/wp-content/uploads/2015/12/bigstock-Group-of-Business-People-Using-70132876-1024x662.jpg');
+    background-size: cover;
+    height: 400px;
+    color: snow;
+    padding: 100px;
+    
+}
+.teacher-banner h1{
+    font-size: 100px;
+}

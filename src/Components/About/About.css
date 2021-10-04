@@ -1,0 +1,11 @@
+.about-banner{
+    background: url('https://cit.edu.au/__data/assets/image/0006/73617/image29.jpg');
+    background-size: cover;
+    height: 400px;
+    color: snow;
+    padding-left: 30px;
+    
+}
+.about-banner h1{
+    font-size: 100px;
+}
